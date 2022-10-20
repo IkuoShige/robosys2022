@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Ikuo Shige
+# SPDX-License-Identifier: GPL-3.0
 import sys
 
 def tonum(s):
