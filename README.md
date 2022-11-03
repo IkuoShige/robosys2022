@@ -1,9 +1,3 @@
-# robosys2022
-robosys
-
-* このソフトウェアパッケージは，GPL-3.0ライセンスの下，再頒布および使用が許可されます．
-* © 2022 Ikuo Shige
-
 # plusコマンド
 ![test](https://github.com/IkuoShige/robosys2022/actions/workflows/test.yml/badge.svg)
 
@@ -18,4 +12,5 @@ robosys
 ## テスト環境
 ・Ubuntu
 
-@ 2022 Ikuo Shige
+* このソフトウェアパッケージは，GPL-3.0ライセンスの下，再頒布および使用が許可されます．
+* © 2022 Ikuo Shige
