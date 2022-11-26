@@ -1,3 +1,6 @@
+# robosys_2022
+ロボットシステム学の提出用リポジトリ
+
 # plusコマンド
 ![test](https://github.com/IkuoShige/robosys2022/actions/workflows/test.yml/badge.svg)
 
