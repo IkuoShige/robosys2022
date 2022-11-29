@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Ikuo Shige
+# SPDX-License-Identifier: BSD-3-Clause
 def Fourarithmeticoperations(sym, b, results, c):
     if sym == '+':
         results += b
