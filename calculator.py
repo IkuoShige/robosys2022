@@ -10,16 +10,19 @@ def Fourarithmeticoperations(sym, b, results, c):
         results *= b
     if sym == '/':
         results /=b
-    print("==={}".format(results))
+    #if sym == 's':
+    #    result 
+    #print("==={}".format(results))
     return results
 
 def showresult(results, c):
     if c == 0:
         print("cancel")
     else:
-        print("result == {}".format(results))
-        print("you did it !")
-    return
+        print("{}".format(results))
+        #print("result == {}".format(results))
+        #print("you did it !")
+    return results
 
 def set_boad():
     print("*   f:三角関数(until)  a: 四則演算   h: ヘルプ                    *");
@@ -32,27 +35,34 @@ def set_boad():
     print("*             |q                     finish                   *");
     print("***************************************************************");
 
-def main():
+def main(line):
     c = 0
-    print("input number :")
+    i = 0
+    results = 0
+    #print("input number :")
     while True:
-        y = input().split()
-        mode = y[0]
+        #line = input().split()
+        mode = line[i]
         if mode == 'q':
             break
         elif mode == 'h':
             set_boad()
-            print("input number :")
-            continue
+            #print("input number :")
+            #continue
+            break
         elif c == 0:
-            results, sym, b = float(y[0]), y[1],float(y[2])
+            results, sym, b = float(line[i]), line[i+1],float(line[i+2])
+            i += 2
+        elif i == (len(line) + 1) / 2: #@
+            break                      #@
         else:
-            sym, b, = y[0], float(y[1])
+            sym, b, = line[2*i -1], float(line[2*i])
+            i += 1
 
         results = Fourarithmeticoperations(sym, b, results, c)
-        c = c + 1
+        c += 1
     showresult(results, c)
 
 if __name__ == "__main__":
-    set_boad()
-    main()
+    #set_boad()
+    main(input().split())
