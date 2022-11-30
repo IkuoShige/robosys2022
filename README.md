@@ -46,6 +46,7 @@ seq 5 | ./plus
 ```
 
 # calculator.py
+
 ![calc](https://github.com/IkuoShige/robosys2022/actions/workflows/calc.yml/badge.svg)
 
 ## 機能
