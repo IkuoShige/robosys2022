@@ -3,9 +3,9 @@
 
 このリポジトリには
 
-* 講義で扱った plus,test.bash
+* plus,test.bash
 
-* 自分で作成した calclator.py, check_calc.bash
+* calclator.py, check_calc.bash
 
 が含まれています
 
