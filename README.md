@@ -22,7 +22,8 @@ calculator.py
 
 ターミナルで以下のコマンドを実行する
 ```
-git clone https://github.com/IkuoShige/robosys2022.git
+$git clone https://github.com/IkuoShige/robosys2022.git
+$cd robosys2022/
 ```
 
 
@@ -37,7 +38,7 @@ git clone https://github.com/IkuoShige/robosys2022.git
 以下が実行例です
 
 ```
-seq 5 | ./plus
+$seq 5 | ./plus
 ```
 
 出力結果は以下のようになります
@@ -59,14 +60,14 @@ seq 5 | ./plus
 以下のコマンドで実行が可能
 
 ```
-./calculator.py
+$./calculator.py
 ```
 
 その後、標準入力が求められるので数式を打ち込む
 
 "1 + 1" は例
 ```
-1 + 1
+$1 + 1
 ```
 
 出力結果は以下のようになる
