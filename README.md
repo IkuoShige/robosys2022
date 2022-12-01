@@ -9,7 +9,10 @@
 
 が含まれています
 
-## リポジトリの概要 
+
+# リポジトリの概要 
+![test](https://github.com/IkuoShige/robosys2022/actions/workflows/test.yml/badge.svg)
+
 plus
 
 * 標準入力から読み込んだ数字の和を求めることができます。
@@ -28,7 +31,6 @@ $cd robosys2022/
 
 
 # plus
-![test](https://github.com/IkuoShige/robosys2022/actions/workflows/test.yml/badge.svg)
 
 ## 機能
 
@@ -47,8 +49,6 @@ $seq 5 | ./plus
 ```
 
 # calculator.py
-
-![calc](https://github.com/IkuoShige/robosys2022/actions/workflows/calc.yml/badge.svg)
 
 ## 機能
 
